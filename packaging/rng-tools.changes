@@ -1,3 +1,6 @@
+* Sat May 11 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130509.183937@0431954
+- Set license using %license
+
 * Wed Apr 17 2013 Patrick McCarty <patrick.mccarty@linux.intel.com> 97d6357
 - Add packaging
 - Imported Upstream version 4

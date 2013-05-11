@@ -26,6 +26,7 @@ install -Dm0644 %{SOURCE1} %{buildroot}%{_prefix}/lib/systemd/system/rngd.servic
 %docs_package
 
 %files
+%license COPYING
 %{_bindir}/rngtest
 %{_prefix}/lib/systemd/system/rngd.service
 %{_sbindir}/rngd
