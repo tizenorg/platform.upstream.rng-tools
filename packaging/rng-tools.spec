@@ -7,6 +7,7 @@ Url:            http://sourceforge.net/projects/gkernel
 Group:          Development/Tools
 Source0:        %{name}-%{version}.tar.gz
 Source1:        rngd.service
+Source1001: 	rng-tools.manifest
 
 %description
 A daemon that monitors a hardware random number generator, and supplies entropy
@@ -14,6 +15,7 @@ from that to the system kernel's /dev/random machinery.
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 %configure
@@ -26,6 +28,7 @@ install -Dm0644 %{SOURCE1} %{buildroot}%{_prefix}/lib/systemd/system/rngd.servic
 %docs_package
 
 %files
+%manifest %{name}.manifest
 %license COPYING
 %{_bindir}/rngtest
 %{_prefix}/lib/systemd/system/rngd.service
