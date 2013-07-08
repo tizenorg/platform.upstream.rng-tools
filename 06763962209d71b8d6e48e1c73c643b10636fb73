@@ -1,0 +1,8 @@
+Change-Id: I06763962209d71b8d6e48e1c73c643b10636fb73
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:38:47 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4969
+Project: platform/upstream/rng-tools
+Branch: refs/heads/tizen
